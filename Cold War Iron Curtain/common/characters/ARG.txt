@@ -1141,4 +1141,25 @@ characters={
 			legacy_id=-1
 		}
 	}	
+
+	ARG_juan_bautista_loza={
+		name="Juan Bautista Loza"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/ARG/ARG_Juan_Bautista_Loza.png"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist fortress_buster infantry_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}		
 }

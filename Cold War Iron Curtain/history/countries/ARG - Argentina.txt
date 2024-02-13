@@ -549,6 +549,7 @@ recruit_character = ARG_osiris_villegas
 recruit_character = ARG_enrique_rauch
 recruit_character = ARG_carlos_moori_koening
 recruit_character = ARG_tomas_sanchez_bustamente
+recruit_character = ARG_juan_bautista_loza
 retire_character = ARG_elbio_carlos_anaya
 retire_character = ARG_juan_peron
 retire_character = ARG_jose_tamborini
