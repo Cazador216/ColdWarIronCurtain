@@ -2,7 +2,7 @@ characters={
 
 	ARG_juan_peron={
 		name="Juan Domingo Peron"
-		desc = "ARG_juan_peron_desc"
+		desc = "ARG_juan_peron_desc" 
 		portraits={
 			army = {
 				large = "gfx/leaders/ARG/ARG_Juan_Peron.png"
@@ -795,7 +795,7 @@ characters={
 				large="gfx/leaders/ARG/ARG_Carlos_Toranzo_Montero.png"
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits={ urban_assault_specialist fortress_buster infantry_leader }
 			skill=3
 			attack_skill=3
@@ -1112,7 +1112,7 @@ characters={
 		}
 		corps_commander={
 			traits={ urban_assault_specialist fortress_buster infantry_leader }
-			skill=3
+			skill=2
 			attack_skill=3
 			defense_skill=3
 			planning_skill=3
@@ -1162,4 +1162,25 @@ characters={
 			legacy_id=-1
 		}
 	}		
+
+	ARG_armando_martijena={
+		name="Armando Martijena"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/ARG/ARG_Armando_Martijena.png"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist fortress_buster infantry_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}	
 }

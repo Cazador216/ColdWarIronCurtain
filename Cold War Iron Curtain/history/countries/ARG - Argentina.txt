@@ -1,7 +1,5 @@
 ﻿capital = 278
 
-add_political_power = -250
-
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -469,7 +467,6 @@ recruit_character = ARG_eduardo_lonardi
 recruit_character = ARG_eugenio_aramburu
 recruit_character = ARG_hector_solanas_pacheco
 recruit_character = ARG_julio_alsogaray
-recruit_character = ARG_alcides_aufranc
 recruit_character = ARG_hernan_pujato
 recruit_character = ARG_alejandro_lannuse
 recruit_character = ARG_juan_uranga
@@ -549,7 +546,9 @@ recruit_character = ARG_osiris_villegas
 recruit_character = ARG_enrique_rauch
 recruit_character = ARG_carlos_moori_koening
 recruit_character = ARG_tomas_sanchez_bustamente
+recruit_character = ARG_armando_martijena
 recruit_character = ARG_juan_bautista_loza
+recruit_character = ARG_alcides_aufranc
 retire_character = ARG_elbio_carlos_anaya
 retire_character = ARG_juan_peron
 retire_character = ARG_jose_tamborini
