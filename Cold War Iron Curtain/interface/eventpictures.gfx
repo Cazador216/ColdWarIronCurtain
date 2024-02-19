@@ -18091,4 +18091,5 @@ spriteTypes = {
 		name = "GFX_ARG_Labour_Rights"
 		texturefile = "gfx/event_pictures/ARG/Labour_Rights.png"
 	}	
+	
 }
