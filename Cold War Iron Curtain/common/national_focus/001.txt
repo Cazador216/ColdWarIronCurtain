@@ -52,8 +52,7 @@ focus_tree = {
 		prerequisite = { focus = ARG_decreto_no_29337  }
 		completion_reward = {
 		country_event = arg.10		
-		cic_construction_boost_factor = 0.1
-		add_political_power = 20				
+        add_political_power = 15			
 		}		
 	}
 

@@ -1,0 +1,166 @@
+focus_tree = {
+	id = 1914
+	continuous_focus_position = { x = -40 y = 920 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ARG
+		}
+	}
+	#La Libertadora
+	focus = {
+		id = ARG_la_libertadora
+		icon = GFX_focus_chi_army_reform
+		x = 11
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Eliminate the National Congress
+	focus = {
+		id = ARG_eliminate_the_national_congress
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ARG_la_libertadora  } prerequisite = { focus = ARG_free_menendez  }
+	}
+
+	#Depose the Supreme Court of Justice
+	focus = {
+		id = ARG_depose_the_supreme_court_of_justice
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ARG_la_libertadora  }
+	}
+
+	#Overthrow the governors
+	focus = {
+		id = ARG_overthrow_the_governors
+		icon = GFX_goal_unknown
+		x = 14
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ARG_la_libertadora  }
+	}
+
+	#Create the National Investigation Commission
+	focus = {
+		id = ARG_create_the_national_investigation_commission
+		icon = GFX_goal_unknown
+		x = 13
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ARG_eliminate_the_national_congress  } prerequisite = { focus = ARG_depose_the_supreme_court_of_justice  } prerequisite = { focus = ARG_overthrow_the_governors  }
+	}
+
+	#Suppress Resistance
+	focus = {
+		id = ARG_suppress_resistance
+		icon = GFX_goal_unknown
+		x = 11
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ARG_la_libertadora  }
+	}
+
+	#Free Menendez
+	focus = {
+		id = ARG_free_menendez
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ARG_suppress_resistance  }
+	}
+
+	#Take control of the CGT
+	focus = {
+		id = ARG_take_control_of_the_cgt
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ARG_depose_the_supreme_court_of_justice  }
+	}
+
+	#Try Peronist leaders for treason
+	focus = {
+		id = ARG_try_peronist_leaders_for_treason
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ARG_take_control_of_the_cgt  }
+	}
+
+	#NI VENCEDORES NI VENCIDOS
+	focus = {
+		id = ARG_ni_vencedores_ni_vencidos
+		icon = GFX_goal_unknown
+		x = 9
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ARG_try_peronist_leaders_for_treason  } prerequisite = { focus = ARG_install_military_discipline_in_factories  }
+	}
+
+	#Install military discipline in factories
+	focus = {
+		id = ARG_install_military_discipline_in_factories
+		icon = GFX_goal_unknown
+		x = 10
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ARG_ban_unions  } prerequisite = { focus = ARG_take_control_of_the_cgt  }
+	}
+
+	#Ban unions
+	focus = {
+		id = ARG_ban_unions
+		icon = GFX_goal_unknown
+		x = 11
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ARG_promote_agricultural_exports  }
+	}
+
+	#Promote agricultural exports
+	focus = {
+		id = ARG_promote_agricultural_exports
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ARG_create_the_national_investigation_commission  }
+	}
+
+}

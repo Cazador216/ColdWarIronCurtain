@@ -257,7 +257,7 @@ country_event = {
 			}
 			retire_ideology_leader = fascism
 			news_event = arg_news.1601
-			load_focus_tree = { tree = 2da-presidencia-de-peron keep_completed = yes }			
+			load_focus_tree = { tree = peron2 keep_completed = yes }			
 			promote_character = {
 				character = ARG_juan_peron
 				ideology = peronism
@@ -894,8 +894,22 @@ country_event = {
 	}	 
 } 	 
 
+country_event = {
+	id = arg.28
+	title = arg.27.t
+	desc = arg.27.d
+	picture = GFX_report_event_usa_election_generic
 
+	fire_only_once = yes
 
+	trigger = {
+		date > 1955.09.23
+        date < 1955.09.24
+		original_tag = ARG
+	} 
 
-
-                  
+	option = {
+		name = "Revolucion Libertadora"
+		load_focus_tree = { tree = 1914 keep_completed = yes }
+	}	
+}                
