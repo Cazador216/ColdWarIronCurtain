@@ -1,0 +1,49 @@
+soundeffect = {
+    name = arg_clapping
+    volume = 1.0
+    sounds = {
+        sound = arg_clapping
+    }
+}
+
+sound = {
+    name = "jap_clapping" 
+    file = "arg big events/clapping.wav"
+    always_load = yes
+}
+
+soundeffect = {
+    name = superev_black
+    volume = 1.0
+    sounds = {
+        sound = superev_black
+    }
+}
+
+soundeffect = {
+    name = frondizi
+    volume = 1.0
+    sounds = {
+        sound = frondizi
+    }
+}
+
+sound = {
+    name = "frondizi"
+    file = "arg big events/frondizi.wav"
+    always_load = yes
+}
+
+soundeffect = {
+    name = arg_ldp_anthem
+    volume = 1.0
+    sounds = {
+        sound = arg_ldp_anthem
+    }
+}
+
+sound = {
+    name = "arg_ldp_anthem"
+    file = "arg big events/warera.wav"
+    always_load = yes
+}

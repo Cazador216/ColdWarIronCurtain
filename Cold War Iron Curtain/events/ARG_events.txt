@@ -257,7 +257,8 @@ country_event = {
 			}
 			retire_ideology_leader = fascism
 			news_event = arg_news.1601
-			load_focus_tree = { tree = peron2 keep_completed = yes }			
+			load_focus_tree = { tree = peron2 keep_completed = yes }
+			complete_national_focus = ARG_peronssecondpresidency			
 			promote_character = {
 				character = ARG_juan_peron
 				ideology = peronism
@@ -335,6 +336,7 @@ country_event = {
 			has_country_flag = arturo_frondizi_ucr_nominee_1951
             }
 			news_event = arg_news.1603
+			ARG_Big_Event_Frondizi_President_Effect = yes
 			promote_character = {
 				character = ARG_arturo_frondizi
 				ideology = social_democrat

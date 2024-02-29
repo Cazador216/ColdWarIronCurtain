@@ -1,8 +1,3 @@
 ﻿l_english:
-  argleaders.1.t: "The Revolución Libertadora"
-  argleaders.1.d: "PLACEHOLDER Peron goes to exile, the military takes over"
-  argleaders.1.a: "Sic Semper Tyrannis"
-  argleaders.2.t: "Lonardi Assumes the Presidency"
-  argleaders.2.d: "PLACEHOLDER Lonardi leader event"
-  argleaders.2.a: "Hopefully this will stabilize Argentina"
-
+  ARG_BIG_EVENT_QUOTE:0 "[ARG_Big_Event_Quote_Loc]"
+  ARG_Big_Event_Frondizi_President_Quote:0 "I Changed my Position Because I Prefer To Renounce An Unreal Intellectual Attitude, Than To Keep It at the Expense of the Interests of the Country -Arturo Frondizi"
