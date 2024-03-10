@@ -1459,6 +1459,6 @@ news_event = {
 
 	option = {
 		name = news.1600.a
-	}
+	} 
 }
 

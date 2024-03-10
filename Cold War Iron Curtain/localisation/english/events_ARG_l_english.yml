@@ -1,8 +1,6 @@
 ﻿l_english:
-  argleaders.1.t: "The Revolución Libertadora"
-  argleaders.1.d: "PLACEHOLDER Peron goes to exile, the military takes over"
-  argleaders.1.a: "Sic Semper Tyrannis"
-  argleaders.2.t: "Lonardi Assumes the Presidency"
-  argleaders.2.d: "PLACEHOLDER Lonardi leader event"
-  argleaders.2.a: "Hopefully this will stabilize Argentina"
+  arg.1.t: "The Coup of Military 1951"
+  arg.1.d: "General Benjamin Menendez attempted a coup d'état against General Peron and his revolt was sent involved in a failure of military call to rebellion against President Peron, his military rebellion will not last long."
+  arg.1.a: "The Military Coup Failed"
+
 
