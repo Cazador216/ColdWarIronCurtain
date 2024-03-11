@@ -15,7 +15,7 @@ characters={
 			id=-1
 		}
 		field_marshal = {
-			traits = { expert_delegator old_guard inflexible_strategist politically_connected skilled_Staffer charismatic }
+			traits = { expert_delegator old_guard inflexible_strategist politically_connected skilled_Staffer }
 			skill = 4
 			attack_skill = 3
 			defense_skill = 5
@@ -92,7 +92,63 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
+	}	
+
+	ARG_arturo_illia={
+		name="Arturo Umberto Illia"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Arturo_Ilia.png"
+			}
+		}
+		country_leader={
+			ideology=social_democrat
+			expire="1965.1.1.1"
+			id=-1
+		}
 	}		
+	
+	ARG_zavala_ortiz={
+		name="Miguel Angel Zavala Ortiz"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Miguel_Angel_Zavala_Ortiz.png"
+			}
+		}
+		country_leader={
+			ideology=social_democrat
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}		
+
+	ARG_oscar_alende={
+		name="Oscar Eduardo Alende"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Oscar_Alende.png"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
+
+	ARG_rodolfo_martinovic={
+		name="Rodolfo Martinovic"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Rodolfo_Martinovic.png"
+			}
+		}
+		country_leader={
+			ideology=social_democrat
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
 
 	ARG_alfredo_palacios={
 		name="Alfredo Palacios"
@@ -108,11 +164,39 @@ characters={
 		}
 	}	
 
+	ARG_jose_luis_romero={
+		name="Jose Luis Romero"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Jose_Luis_Romero.png"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
+
 	ARG_atilio_oro_maini={
 		name="Atilio dell Oro Maini"
 		portraits={
 			civilian={
 				large="gfx/leaders/ARG/ARG_atilio_oro_maini.png"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
+
+	ARG_horacio_sueldo={
+		name="Horacio Sueldo"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Horacio_Sueldo.png"
 			}
 		}
 		country_leader={
@@ -150,6 +234,20 @@ characters={
 		}
 	}
 
+	ARG_emilio_hardoy={
+		name="Emilio Hardoy"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Emilio_Hardoy.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
+
 	ARG_luciano_molinas={
 		name="Luciano Molinas"
 		portraits={
@@ -172,7 +270,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=conservative_liberalism
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -248,6 +346,90 @@ characters={
 		}
 	}
 
+	ARG_jose_maria_guido={
+		name="Jose Maria Guido"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Jose_Maria_Guido.png"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	ARG_mario_amadeo={
+		name="Mario Amadeo"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Mario_Amadeo.png"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
+
+	ARG_rodolfo_martinez={
+		name="Rodolfo Martinez"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Rodolfo_Martinez.png"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
+
+	ARG_rodolfo_martinez={
+		name="Rodolfo Martinez"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Rodolfo_Martinez.png"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	ARG_vicente_solano_lima={
+		name="Vicente Solano Lima"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Vicente_Solano_Lima.png"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
+
+	ARG_rogelio_frigerio={
+		name="Rogelio Frigerio"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/ARG_Rogelio_Julio_Frigerio.png"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
+
 	ARG_carlos_alberto_perez_companc={
 		name="Carlos Perez Companc"
 		portraits={
@@ -260,7 +442,7 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
-	}
+	}	
 
 	ARG_benjamin_andres_menendez={
 		name="Benjamin Andres Menendez"
@@ -296,7 +478,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ skilled_Staffer engineer politically_connected }
+			traits={ skilled_Staffer politically_connected }
 			skill=5
 			attack_skill=3
 			defense_skill=4
@@ -338,7 +520,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer urban_assault_specialist fortress_buster politically_connected }
+			traits={ urban_assault_specialist fortress_buster politically_connected }
 			skill=5
 			attack_skill=5
 			defense_skill=4
@@ -377,7 +559,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ expert_delegator infantry_officer urban_assault_specialist fortress_buster infantry_leader skilled_Staffer engineer old_guard inflexible_strategist politically_connected }
+			traits={ expert_delegator infantry_officer urban_assault_specialist fortress_buster infantry_leader skilled_Staffer old_guard inflexible_strategist politically_connected }
 			skill=5
 			attack_skill=6
 			defense_skill=5
@@ -445,7 +627,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ desert_fox mountaineer infantry_officer infantry_leader politically_connected }
+			traits={ desert_fox infantry_officer infantry_leader politically_connected }
 			skill=4
 			attack_skill=2
 			defense_skill=4
@@ -466,7 +648,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ politically_connected engineer }
+			traits={ politically_connected }
 			skill=1
 			attack_skill=2
 			defense_skill=1
@@ -487,7 +669,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ skirmisher improvisation_expert adaptable politically_connected }
+			traits={ skirmisher adaptable politically_connected }
 			skill=2
 			attack_skill=2
 			defense_skill=3
@@ -546,6 +728,11 @@ characters={
 				large="gfx/leaders/ARG/ARG_Eduardo_Lonardi.png"
 			}
 		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}	
 		corps_commander={
 			traits={ politically_connected infantry_officer infantry_leader }
 			skill=5
@@ -564,6 +751,11 @@ characters={
 				large="gfx/leaders/ARG/ARG_Pedro_Eugenio_Aramburu.png"
 			}
 		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}		
 		corps_commander={
 			traits={ politically_connected infantry_officer infantry_leader urban_assault_specialist }
 			skill=5
@@ -649,7 +841,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ panzer_leader panzer_expert fortress_buster skilled_Staffer adaptable charismatic desert_fox }
+			traits={ panzer_leader panzer_expert fortress_buster skilled_Staffer adaptable desert_fox }
 			skill=5
 			attack_skill=6
 			defense_skill=4
@@ -753,6 +945,11 @@ characters={
 				large="gfx/leaders/ARG/ARG_Juan_Carlos_Ongania.png"
 			}
 		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}		
 		corps_commander={
 			traits={ urban_assault_specialist fortress_buster infantry_leader }
 			skill=3

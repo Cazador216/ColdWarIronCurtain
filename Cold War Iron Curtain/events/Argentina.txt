@@ -17,6 +17,374 @@ country_event = {
 	option = {
 		name = arg.1.a
         add_political_power = 15		
+		retire_character = ARG_benjamin_andres_menendez
+		news_event = news.1600 
+	}
+}
+
+# Elections Presidencial Argentina 1951
+country_event = {
+	id = arg.2
+	immediate = {log = "[GetDateText]: [Root.GetTag]: id = arg.2"}
+	title = arg.2.t
+	desc = arg.2.d
+	picture = GFX_American_Mars_1
+
+	is_triggered_only = yes
+
+	option = {
+		name = arg.2.a
+        add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+	}
+}
+
+# Coup of Military 1955 Lonardi
+country_event = {
+	id = arg.3
+	immediate = {log = "[GetDateText]: [Root.GetTag]: id = arg.3"}
+	title = arg.3.t
+	desc = arg.3.d
+	picture = GFX_American_Mars_1
+
+	is_triggered_only = yes
+
+	option = {
+		name = arg.3.a
+        add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+	}
+}
+
+# Coup of Military 1955 Aramburu
+country_event = {
+	id = arg.4
+	immediate = {log = "[GetDateText]: [Root.GetTag]: id = arg.4"}
+	title = arg.4.t
+	desc = arg.4.d
+	picture = GFX_American_Mars_1
+
+	is_triggered_only = yes
+
+	option = {
+		name = arg.4.a
+        add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+	}
+}
+
+# Elections of 1958
+country_event = {
+	id = arg.5
+	immediate = {log = "[GetDateText]: [Root.GetTag]: id = arg.5"}
+	title = arg.5.t
+	desc = arg.5.d
+	picture = GFX_American_Mars_1
+
+	is_triggered_only = yes
+
+	option = {
+		name = arg.5.a
+        add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+		set_party_name = { ideology = neutrality long_name = "Union Civica Radical Intrasigente" name = "UCRI" }
+        set_party_name = { ideology = communism long_name = "Tupac Amaru Union" name = "Tupac Amaru Union" }
+        set_party_name = { ideology = democratic long_name = "New tahuantinsuyo Party" name = "New tahuantinsuyo Party" }
+        set_party_name = { ideology = fascism long_name = "Etnocacerism Party" name = "Etnocarism Party" }		
+	}
+}
+
+# Elections of 1962
+country_event = {
+	id = arg.6
+	immediate = {log = "[GetDateText]: [Root.GetTag]: id = arg.6"}
+	title = arg.6.t
+	desc = arg.6.d
+	picture = GFX_American_Mars_1
+
+	is_triggered_only = yes
+
+	option = {
+		name = arg.6.a
+        add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+    }
+
+	option = {
+		name = arg.6.b
+		add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+	}
+
+	option = {
+		name = arg.6.c
+		add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+	}
+}	
+
+# Coup of Military 1962 Frondizi
+country_event = {
+	id = arg.7
+	immediate = {log = "[GetDateText]: [Root.GetTag]: id = arg.7"}
+	title = arg.7.t
+	desc = arg.7.d
+	picture = GFX_American_Mars_1
+
+	is_triggered_only = yes
+
+	option = {
+		name = arg.7.a
+        add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+		set_country_flag = ARG_Coup_Civil_Guido_1962
+		set_politics = {
+			ruling_party = centrist 
+			last_election = 1951.11.17
+			elections_allowed = yes
+			election_frequency = 72
+        }
+		promote_character = {
+			character = ARG_eduardo_laurencena
+			ideology = centrist 
+		}						
+    }
+
+	option = {
+		name = arg.7.b
+		add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+		set_country_flag = ARG_Coup_Military_Poggi_1962		
+	}
+
+	option = {
+		name = arg.7.c
+		add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+		set_country_flag = ARG_Survives_Frondizi_1962		
+	}
+}
+
+# War of Azules-Colorados 1963
+country_event = {
+	id = arg.8
+	immediate = {log = "[GetDateText]: [Root.GetTag]: id = arg.8"}
+	title = arg.8.t
+	desc = arg.8.d
+	picture = GFX_American_Mars_1
+
+	is_triggered_only = yes
+
+	option = {
+		name = arg.8.a
+        add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+		set_country_flag = ARG_Victory_Azules_1963		
+    }
+
+	option = {
+		name = arg.8.c
+		add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+		set_country_flag = ARG_Victory_Colorados_1963		
+	}
+}
+
+# Decision of Ban of Frente Nacional and Unidad Democratica 1963
+country_event = {
+	id = arg.9
+	immediate = {log = "[GetDateText]: [Root.GetTag]: id = arg.8"}
+	title = arg.9.t
+	desc = arg.9.d
+	picture = GFX_American_Mars_1
+
+	is_triggered_only = yes
+
+	option = {
+		name = arg.9.a
+        add_stability = -15		
+		set_country_flag = ARG_Ban_of_Frente_Nacional
+    }
+
+	option = {
+		name = arg.9.c
+        add_stability = 15				
+		set_country_flag = ARG_Aproves_of_Frente_Nacional
+	}
+}
+
+# Elections Presidencial 1963 OTL
+country_event = {
+	id = arg.10
+	immediate = {log = "[GetDateText]: [Root.GetTag]: id = arg.8"}
+	title = arg.10.t
+	desc = arg.10.d
+	picture = GFX_American_Mars_1
+
+	trigger = {
+        original_tag = ARG 
+        date > 1963.3.1
+        has_civil_war = no 
+        exists = yes 
+        ARG = {
+				has_country_flag = ARG_Aproves_of_Frente_Nacional
+            }
+        }
+
+	option = {
+		name = arg.10.a
+        add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+    }
+
+	option = {
+		name = arg.10.a
+        add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+    }	
+
+	option = {
+		name = arg.10.c
+		add_political_power = 15		
+		retire_character = ARG_arturo_rawson
+		news_event = news.1600 
+	}
+}
+
+# Election Presidencial 1963 Frente Nacional and Unidad Democratica 
+country_event = {
+	id = arg.11
+	immediate = {log = "[GetDateText]: [Root.GetTag]: id = arg.8"}
+	title = arg.11.t
+	desc = arg.11.d
+	picture = GFX_American_Mars_1
+
+	is_triggered_only = yes
+
+	option = {
+		name = arg.11.a
+		if = { 
+			limit = { 
+				#
+			has_country_flag = rodolfo_martinez_frente_nacional_nominee_1963
+            }
+			news_event = arg_news.1602 
+			promote_character = {
+				character = ARG_ricardo_balbin
+				ideology = centrist
+            }			
+		}
+		if = { 
+			limit = { 
+				#
+			has_country_flag = carlos_ongania_frente_nacional_nominee_1963
+            }
+			news_event = arg_news.1603
+			promote_character = {
+				character = ARG_arturo_frondizi
+				ideology = centrist
+            }			
+		}
+		if = { 
+			limit = { 
+				#
+			has_country_flag = vicente_lima_frente_nacional_nominee_1963
+            }
+			news_event = arg_news.1605	
+			promote_character = {
+				character = ARG_amadeo_sabattini
+				ideology = centrist
+            }					
+		}
+		if = { 
+			limit = { 
+				#
+			has_country_flag = mario_amadeo_frente_nacional_nominee_1963
+            }
+			news_event = arg_news.1605	
+			promote_character = {
+				character = ARG_amadeo_sabattini
+				ideology = centrist
+            }					
+		}	
+		if = { 
+			limit = { 
+				#
+			has_country_flag = rogelio_frigerio_frente_nacional_nominee_1963
+            }
+			news_event = arg_news.1605	
+			promote_character = {
+				character = ARG_amadeo_sabattini
+				ideology = centrist
+            }					
+		}			
+		if = { 
+			limit = { 
+				#
+			has_country_flag = carlos_companc_frente_nacional_nominee_1963
+            }
+			news_event = arg_news.1607
+			promote_character = {
+				character = ARG_carlos_alberto_perez_companc
+				ideology = centrist
+            }			
+		}
+		ai_chance = {
+			factor = 30
+		}
+		set_country_flag = frente_nacional_victory_63
+		set_politics = {
+			ruling_party = centrist
+			last_election = 1958.03.03
+			elections_allowed = yes
+			election_frequency = 72
+        }
+	}	
+} 		
+
+# Election Presidencial 1964 Rogelio Frigerio 
+country_event = {
+	id = arg.11
+	immediate = {log = "[GetDateText]: [Root.GetTag]: id = arg.8"}
+	title = arg.11.t
+	desc = arg.11.d
+	picture = GFX_American_Mars_1
+
+	trigger = {
+        original_tag = ARG 
+        date > 1964.3.1
+        has_civil_war = no 
+        exists = yes 
+        ARG = {
+            NOT = {
+                OR = {
+					has_country_flag = ARG_Victory_Colorados_1963	
+					has_country_flag = ARG_Coup_Civil_Guido_1962
+					has_country_flag = ARG_Coup_Military_Poggi_1962
+                }
+            }
+        }
+    }
+
+	fire_only_once = yes
+
+	option = {
+		name = arg.11.a
+		add_political_power = 15		
 		retire_character = ARG_arturo_rawson
 		news_event = news.1600 
 	}
