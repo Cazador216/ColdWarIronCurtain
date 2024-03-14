@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "ARG_Big_Event_main_window"
 		position = {x = 0 y = 0}	
-		size = { width = 984 height = 643 }
+		size = { width = 650 height = 543 }
 		orientation = center
 		origo = center
 		fade_time = 100
@@ -14,7 +14,7 @@ guiTypes = {
 		iconType = {
 			name ="ARG_Big_Event_Frondizi_President" 
 			spriteType = "GFX_ARG_Big_Event_Frondizi_President"
-			position = { x = 77 y = 75 }
+			position = { x = 27 y = 45 }
 			orientation = UPPER_LEFT
 			alwaystransparent = no
 		}
@@ -38,7 +38,7 @@ guiTypes = {
 		buttonType = {
 			name ="ARG_Big_Event_Close_Button"
 			spriteType = "GFX_ARG_Big_Event_Close_Button"
-			position = { x = 850 y = 243 }
+			position = { x = 640 y = 170 }
 			orientation = UPPER_LEFT
 			alwaystransparent = no
 			shortcut = "ESCAPE"
@@ -46,7 +46,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name ="ARG_Big_Event_Quote" 
-			position = { x = 365 y = 450 }
+			position = { x = 190 y = 315 }
 			font = "hoi_18mbs"
 			text = "ARG_BIG_EVENT_QUOTE"
 			format = right
