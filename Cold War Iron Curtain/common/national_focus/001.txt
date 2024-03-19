@@ -35,7 +35,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ARG_the_peron_presidency  }
 		completion_reward = {
-		country_event = arg.8			
+		country_event = arg.1			
 		}
 	}
 
@@ -51,7 +51,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ARG_decreto_no_29337  }
 		completion_reward = {
-		country_event = arg.10		
+		country_event = arg.3		
         add_political_power = 15			
 		}		
 	}
@@ -68,7 +68,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ARG_expanding_the_rights_of_the_new_constitution  }
 		completion_reward = {
-		country_event = arg.12
+		country_event = arg.5
 		}
 	}
 
@@ -84,7 +84,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ARG_decreto_no_29337  } prerequisite = { focus = ARG_expanding_the_rights_of_the_new_constitution  }
 		completion_reward = {
-		country_event = arg.13	
+		country_event = arg.4	
 		add_political_power = 150
 		}
 	}
@@ -101,7 +101,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ARG_the_peron_presidency  }
 		completion_reward = {
-		country_event = arg.9	
+		country_event = arg.2	
 		add_political_power = -145
 		}
 	}
