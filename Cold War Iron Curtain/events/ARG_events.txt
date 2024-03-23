@@ -86,7 +86,7 @@ country_event = {
 	id = arg.6
 	title = arg.6.t
 	desc = arg.6.d
-	picture = GFX_ARG_Comision_Visca
+	picture = GFX_ARG_event_pistarini_plan
 
 	is_triggered_only = yes
 
@@ -100,7 +100,7 @@ country_event = {
 	id = arg.7
 	title = arg.7.t
 	desc = arg.7.d
-	picture = GFX_ARG_Comision_Visca
+	picture = GFX_ARG_Residence_Law
 
 	is_triggered_only = yes
 
@@ -114,7 +114,7 @@ country_event = {
 	id = arg.8
 	title = arg.8.t
 	desc = arg.8.d
-	picture = GFX_ARG_Comision_Visca
+	picture = GFX_ARG_Borlenghi_Represses
 
 	is_triggered_only = yes
 
@@ -128,7 +128,7 @@ country_event = {
 	id = arg.9
 	title = arg.9.t
 	desc = arg.9.d
-	picture = GFX_ARG_Comision_Visca
+	picture = GFX_ARG_Political_Friends
 
 	is_triggered_only = yes
 
@@ -146,7 +146,7 @@ country_event = {
 	id = arg.10
 	title = arg.10.t
 	desc = arg.10.d
-	picture = GFX_ARG_Comision_Visca
+	picture = GFX_ARG_event_prensa_opositora
 
 	is_triggered_only = yes
 
@@ -163,3 +163,32 @@ country_event = {
 		add_political_power = 35
 	}		
 }
+
+country_event = {
+	id = arg.11
+	title = arg.11.t
+	desc = arg.11.d
+	picture = GFX_ARG_event_war_korea_arg
+
+	is_triggered_only = yes
+
+	option = {
+		name = arg.11.a 
+		add_political_power = 35
+	}	
+}
+
+country_event = {
+	id = arg.12
+	title = arg.12.t
+	desc = arg.12.d
+	picture = GFX_ARG_event_verdades_peronistas
+
+	is_triggered_only = yes
+
+	option = {
+		name = arg.12.a 
+		add_political_power = 100
+	}	
+}
+
