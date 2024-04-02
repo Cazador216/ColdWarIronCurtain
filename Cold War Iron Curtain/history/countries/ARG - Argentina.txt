@@ -13,7 +13,7 @@ if = {
 }
 
 if = {
-	limit = { has_dlc = "Man the Guns" }
+	limit = { has_dlc = "Man the Guns" } 
 	create_equipment_variant = {
         name = "San Martin class"
         type = battle_hull_heavy_ww
@@ -299,10 +299,10 @@ set_technology = {
 
 
 add_ideas = {
-	Eva_peron
-    arg_golden_military_era
-    arg_the_state_of_the_national_economy
-	arg_opinion_of_the_army
+    arg_peronist_golden_era	
+    arg_controlled_political_dissent
+	arg_the_constitution_of_49
+	arg_loyal_peronist_army
 	policy_women_temp_4
 	policy_saga_temp_0
 	policy_religion_temp_3
@@ -501,7 +501,6 @@ country_event = { id = argleaders.1 days = 2312 }
 
 	add_ideas = {
 		ARG_CWIC_peronist_resistence_idea_4
-		arg_the_state_of_the_national_economy
 		arg_oil_war_ypf
 		arg_army_indisciplined
 		arg_democratic_hell
@@ -739,7 +738,7 @@ retire_character = ARG_isaac_rojas
 }
 
 remove_ideas = {
-	Eva_peron
+
   }
 
 1968.1.1 = {
